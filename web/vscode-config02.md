@@ -3,7 +3,10 @@
 [返回目录](/web/README.md)
 
 ---
-[下载字体压缩包](/download/cascadia.zip)
+[点击cascadia字体官方网站下载](https://github.com/microsoft/cascadia-code/releases)
+
+---
+![step0001](/images/vscode/vscode-config01-019.png)
 
 ---
 ![step0001](/images/vscode/vscode-config01-012.png)
@@ -21,7 +24,7 @@
 ![step0001](/images/vscode/vscode-config01-016.png)
 
 ---
-在首选项-设置中添加：`"editor.fontFamily": "'Cascadia Code','Cascadia Mono'"`
+图中在首选项-设置中添加的代码：`"editor.fontFamily": "'Cascadia Code','Cascadia Mono'"`
 
 ---
 ![step0001](/images/vscode/vscode-config01-017.png)
@@ -30,7 +33,7 @@
 ![step0001](/images/vscode/vscode-config01-018.png)
 
 ---
-在首选项-设置中添加：`"workbench.iconTheme": "vscode-great-icons"`
+图中在首选项-设置中添加的代码：`"workbench.iconTheme": "vscode-great-icons"`
 
 ---
 插件列表：
