@@ -1,6 +1,6 @@
 # git ssh配置
 
-- [返回目录](/git/README.md)
+[返回目录](/git/README.md)
 
 ---
 ![step0001](/images/git/git-install032.png)
@@ -48,4 +48,4 @@
 ---
 ![step0001](/images/git/git-install044.png)
 
-- [返回目录](/git/README.md)
+[返回目录](/git/README.md)

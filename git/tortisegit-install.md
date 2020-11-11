@@ -1,6 +1,6 @@
 # tortoisegit安装软件安装
 
-- [返回目录](/git/README.md)
+[返回目录](/git/README.md)
 
 ---
 
@@ -48,4 +48,4 @@
 ---
 ![step0001](/images/git/git-install031.png)
 
-- [返回目录](/git/README.md)
+[返回目录](/git/README.md)
