@@ -36,7 +36,18 @@
 ![step0001](/images/vscode/vscode-config01-011.png)
 
 ---
-配置文件内容
+插件列表：
+
+```text
+Chinese (Simplified) Language Pack for Visual Studio Code
+Bracket Pair Colorizer
+HTML CSS Support
+Live Server
+Prettier - Code formatter
+```
+
+---
+配置文件内容：
 
 ```json
 {

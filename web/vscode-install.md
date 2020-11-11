@@ -3,7 +3,7 @@
 [返回目录](/web/README.md)
 
 ---
-[VSCode安装文件下载地址](https://aka.ms/win32-x64-user-stable)
+[点击官方网址下载VSCode安装文件](https://aka.ms/win32-x64-user-stable)
 
 ---
 ![step0001](/images/vscode/vscode-install001.png)

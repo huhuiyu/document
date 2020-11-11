@@ -3,7 +3,10 @@
 [返回目录](/web/README.md)
 
 ---
-[谷歌浏览器安装文件下载地址](/download/ChromeSetup-2020-10-23.exe)
+[点击官方网址下载谷歌浏览器](https://www.google.cn/chrome/index.html)
+
+---
+![step0001](/images/chrome/chrome000.png)
 
 ---
 ![step0001](/images/chrome/chrome001.png)
