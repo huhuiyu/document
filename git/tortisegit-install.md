@@ -4,7 +4,7 @@
 
 ---
 
-[点击下载git安装文件](https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi)
+[点击下载tortoisegit安装文件](https://download.tortoisegit.org/tgit/2.11.0.0/TortoiseGit-2.11.0.0-64bit.msi)
 
 ---
 ![step0001](/images/git/git-install018.png)
