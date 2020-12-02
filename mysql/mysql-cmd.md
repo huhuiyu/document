@@ -28,7 +28,7 @@ DROP USER abc;
 FLUSH PRIVILEGES;
 ```
 
-[返回顶端](#git指令)
+[返回顶端](#mysql命令)
 
 ## ssl
 
@@ -38,7 +38,7 @@ show global variables like '%have_ssl%';
 ```
 
 在mysql配置文件中`[mysqld]`小节添加`skip_ssl`后重启服务即可关闭ssl功能  
-[返回顶端](#git指令)
+[返回顶端](#mysql命令)
 
 ---
 [返回目录](/git/README.md)
