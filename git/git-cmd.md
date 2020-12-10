@@ -20,7 +20,7 @@
 - 提交更改：`git commit -m "提交的说明信息"`，例如：`git commit -m "添加了项目说明"`
 - 推送到远程资源库：`git push`
 - 拉取远程资源库更新文件：`git pull`
-- 查看资源库状态：`git staus`  
+- 查看资源库状态：`git status`  
 [返回顶端](#git指令)
 
 ## 分支管理
