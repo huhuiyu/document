@@ -41,4 +41,4 @@ show global variables like '%have_ssl%';
 [返回顶端](#mysql命令)
 
 ---
-[返回目录](/git/README.md)
+[返回目录](/mysql/README.md)
