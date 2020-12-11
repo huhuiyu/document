@@ -9,6 +9,7 @@
 - 启动redis服务：`systemctl start redis.service`
 - redis默认端口：`6379`
 - 查看redis进程：`ps -aux | grep redis`
+- 修改redis配置：`vi /etc/redis.conf`，修改密码查找`requirepass`，修改ip绑定查找`bind`，修改端口查找`port`
 
 ---
 [返回目录](/linux/README.md)
