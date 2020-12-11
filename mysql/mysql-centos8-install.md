@@ -11,7 +11,7 @@
 - 禁用mysql5：`dnf config-manager --disable mysql57-community`
 - 启用mysql8：`dnf config-manager --enable mysql80-community`
 - 关闭默认mysql：`yum module disable mysql`
-- 安装mysql`yum install mysql-community-server`
+- 安装mysql`yum install mysql-community-server -y`
 - 启用mysql服务：`systemctl enable mysqld`
 - 启动mysql服务：`systemctl start  mysqld`
 - 查看mysql的默认root密码：`grep 'temporary password' /var/log/mysqld.log`
