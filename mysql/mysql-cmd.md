@@ -23,7 +23,8 @@ GRANT ALL ON TestDB.* TO 'abc'@'%' with grant option;
 REVOKE ALL ON TestDB.* TO 'abc'@'%';
 -- 删除用户
 DROP USER abc;
-
+-- 修改用户不使用加密密码
+ALTER USER 'abc'@'%' IDENTIFIED WITH mysql_native_password 'Test4-sql';
 -- 权限功能立即生效
 FLUSH PRIVILEGES;
 ```
