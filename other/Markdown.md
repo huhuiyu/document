@@ -1,13 +1,12 @@
 # Markdown知识
 
-[返回首页](https://code.aliyun.com/DarkKnight/document/blob/master/README.md)
+[返回目录](/other/README.md)
 
 ---
 
 - [Markdown知识](#markdown知识)
   - [vscode插件](#vscode插件)
   - [基础知识](#基础知识)
-  - [流程图](#流程图)
 
 ## vscode插件
 
@@ -133,12 +132,5 @@ public class Demo {
 - 分割线`---`，需要前置空行  
 [返回顶端](#markdown知识)
 
-## 流程图
-
-```mermaid
-graph TD
-   A --> B
-```
-
 ---
-[返回首页](https://code.aliyun.com/DarkKnight/document/blob/master/README.md)
+[返回目录](/other/README.md)

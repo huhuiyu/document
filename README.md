@@ -5,4 +5,4 @@
 - [git](/git/README.md)
 - [mysql](/mysql/README.md)
 - [linux](/linux/README.md)
-- [markdown](/Markdown.md)
+- [其它知识](/other/README.md)
