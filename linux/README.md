@@ -10,6 +10,7 @@
 - [tmux](/linux/linux-tmux.md)
 - [redis安装](/linux/linux-redis.md)
 - [jdk安装](/linux/linux-jdk.md)
+- [nexus搭建私有maven仓库](/linux/linux-nexus.md)
 
 [返回首页](https://code.aliyun.com/DarkKnight/document/blob/master/README.md)
 
