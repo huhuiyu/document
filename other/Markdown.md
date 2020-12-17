@@ -101,18 +101,18 @@
 
 - 代码块
 
-&#96;&#96;&#96;代码语言
-代码内容
-多行代码
-&#96;&#96;&#96;
+&#96;&#96;&#96;代码语言  
+代码内容  
+多行代码  
+&#96;&#96;&#96;  
 
-&#96;&#96;&#96;java
-public class Demo {
-&nbsp;&nbsp;public static void mani(String[] args) {
-
-&nbsp;&nbsp;}
-}
-&#96;&#96;&#96;
+&#96;&#96;&#96;java  
+public class Demo {  
+&nbsp;&nbsp;public static void mani(String[] args) {  
+  
+&nbsp;&nbsp;}  
+}  
+&#96;&#96;&#96;  
 
 - 代码块效果
 
