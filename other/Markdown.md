@@ -102,12 +102,13 @@
 - 代码块
 
 ````markdown
-
-```代码块的语言，例如java,开始结束都要添加空行
-代码块内容
-多行
+```代码语言
+代码内容
+多行代码
 ```
+````
 
+````markdown
 ```java
 public class Demo {
   public static void mani(String[] args) {
@@ -115,7 +116,6 @@ public class Demo {
   }
 }
 ```
-
 ````
 
 - 代码块效果
