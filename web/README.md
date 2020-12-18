@@ -1,6 +1,6 @@
 # 前端开发
 
-[返回首页](javascript:history.back())
+[返回首页](/README.md)
 
 ---
 
