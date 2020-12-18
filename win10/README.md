@@ -1,6 +1,6 @@
 # win10
 
-[返回首页](https://code.aliyun.com/DarkKnight/document/blob/master/README.md)
+[返回首页](/main/README.md)
 
 ---
 
@@ -12,4 +12,4 @@
 - [压缩和解压缩](/win10/win10-06.md)
 
 ---
-[返回首页](https://code.aliyun.com/DarkKnight/document/blob/master/README.md)
+[返回首页](/main/README.md)
