@@ -12,6 +12,7 @@
   - [基本指令](#基本指令)
   - [分支管理](#分支管理)
   - [冲突和更改撤销](#冲突和更改撤销)
+  - [同步多个远程资源库](#同步多个远程资源库)
 
 ## 基本指令
 
@@ -45,6 +46,16 @@
   - 拉取版本更新：`git pull`后修改冲突
   - 执行正常的提交和推送  
 [返回顶端](#git指令)
+
+## 同步多个远程资源库
+
+- 在aliyun和github上同时创建同名的项目
+- 添加新的远程资源库：`git remote add github git@github.com:huhuiyu/github-aliyun-test.git`
+- 本地提交完毕后
+  - 执行`git push`提交主资源库
+  - 执行`git push github`提交github资源库
+  - 主资源库提交不同分支需要执行`git push github origin 分支名`，其它资源库不变
+- 可以执行`git remote rm github`来删除github资源库
 
 ---
 [返回目录](/git/README.md)
