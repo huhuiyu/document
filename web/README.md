@@ -1,6 +1,6 @@
 # 前端开发
 
-[返回首页](../README.md)
+[返回首页](https://code.aliyun.com/DarkKnight/document/blob/master/README.md)
 
 ---
 
