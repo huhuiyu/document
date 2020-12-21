@@ -10,7 +10,7 @@
 - 查看安装配置文件：`vi /etc/yum.repos.d/mysql-community.repo`
 - 禁用mysql5：`dnf config-manager --disable mysql57-community` | `yum-config-manager --disable mysql57-community`
 - 启用mysql8：`dnf config-manager --enable mysql80-community` | `yum-config-manager --enable mysql80-community`
-- 关闭默认mysql：`yum module disable mysql`
+- 关闭默认mysql：`yum module disable mysql -y`
 - 安装mysql`yum install mysql-community-server -y`
 - 启用mysql服务：`systemctl enable mysqld`
 - 启动mysql服务：`systemctl start mysqld`

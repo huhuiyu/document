@@ -18,7 +18,7 @@ gpgkey=https://nginx.org/keys/nginx_signing.key
 - 执行`yum install nginx -y`安装nginx
 - 执行`nginx -v`查看安装是否成功(会显示版本号)
 - 配置nginx服务开机启动指令：`systemctl enable nginx`
-- 关闭nginx服务开机启动指令：`systemctl disable  nginx`
+- 关闭nginx服务开机启动指令：`systemctl disable nginx`
 - 启动服务指令：`systemctl start nginx`
 - 停止服务指令：`systemctl stop nginx`
 - 配置文件默认位置：`/etc/nginx/nginx.conf`和`/etc/nginx/conf.d/*.conf`
