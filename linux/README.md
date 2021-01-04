@@ -10,6 +10,7 @@
 - [tmux](/linux/linux-tmux.md)
 - [redis安装](/linux/linux-redis.md)
 - [jdk安装](/linux/linux-jdk.md)
+- [tomcat安装](/linux/linux-tomcat.md)
 - [nexus搭建私有maven仓库](/linux/linux-nexus.md)
 - [nginx安装](/linux/linux-nginx.md)
 - [git安装](/linux/linux-git.md)
