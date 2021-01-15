@@ -13,6 +13,7 @@
   - [分支管理](#分支管理)
   - [冲突和更改撤销](#冲突和更改撤销)
   - [同步多个远程资源库](#同步多个远程资源库)
+  - [配置信息](#配置信息)
 
 ## 基本指令
 
@@ -56,6 +57,14 @@
   - 执行`git push github`提交github资源库
   - 主资源库提交不同分支需要执行`git push github origin 分支名`，其它资源库不变
 - 可以执行`git remote rm github`来删除github资源库
+[返回顶端](#git指令)
+
+## 配置信息
+
+- 查看配置信息：`git config --list`
+- 设置用户名`git config --global user.name "用户名"`
+- 设置用户名`git config --global user.email "用户邮箱"`
+[返回顶端](#git指令)
 
 ---
 [返回目录](/git/README.md)
