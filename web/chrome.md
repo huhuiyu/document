@@ -44,4 +44,7 @@
 ---
 ![step0001](/images/chrome/chrome012.png)
 
+---
+![step0001](/images/chrome/chrome013.png)
+
 [返回目录](/web/README.md)
