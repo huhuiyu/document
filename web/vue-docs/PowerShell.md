@@ -12,9 +12,15 @@
 ![step0001](/web/vue-images/powershell-0004.png)
 
 ---
+![step0001](/web/vue-images/powershell-0005.png)
+
+---
 
 - 为啥要配置：vue脚手架需要执行shell脚本
 - 权限配置语句需要管理员身份执行
+- 图中的指令
+  - `get-ExecutionPolicy`查看执行脚本的权限
+  - `set-ExecutionPolicy RemoteSigned`修改权限
 - 一些简单的指令
   - `盘符:`：切换命令所在盘，例如`d:`
   - `pwd`：显示当前所在文件路径

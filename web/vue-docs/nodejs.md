@@ -38,3 +38,7 @@
 
 ---
 ![step0001](/web/vue-images/nodejs-0012.png)
+
+- 图中的指令
+  - `node -v`查看nodejs版本
+  - `npm -v`查看npm版本

@@ -13,6 +13,7 @@
 - vue
   - [nodejs安装](/web/vue-docs/nodejs.md)
   - [PowerShell执行权限配置](/web/vue-docs/PowerShell.md)
+  - [npm安装源配置](/web/vue-docs/nodejs-config.md)
 
 ---
 
