@@ -1,24 +1,8 @@
-# vue2-router-template
+# vue2.x带路由模板项目
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 复制本项目
+- 修改项目名称
+- 修改public目录中的页面基本信息和网站logo
+- 修改package.json中的项目name以及版本号
+- 执行npm install初始化项目
+- 执行npm run serve开发项目
