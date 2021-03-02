@@ -1,6 +1,10 @@
 # vuecli创建vue2.x带路由的模板项目
 
-- [模板项目目录](/web/vue-templates/vue2-router-template/)
+[返回目录](/web/vue-docs/vuecli.md)
+
+---
+
+- [模板项目目录](/souces/vue2-router-template/)
 
 - [vuecli创建vue2.x带路由的模板项目](#vuecli创建vue2x带路由的模板项目)
   - [创建过程演示](#创建过程演示)
