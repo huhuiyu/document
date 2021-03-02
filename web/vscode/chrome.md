@@ -1,5 +1,7 @@
 # 谷歌浏览器安装和配置
 
+[返回目录](/web/vscode/README.md)
+
 ---
 [点击官方网址下载谷歌浏览器](https://www.google.cn/chrome/index.html)
 
