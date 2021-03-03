@@ -28,6 +28,9 @@
 ---
 ![step0001](/web/vue-images/vuecli-0061.png)
 
+---
+![step0001](/web/vue-images/vuecli-0061a.png)
+
 ## iconfont知识
 
 [iconfont官方网站](https://www.iconfont.cn/)
