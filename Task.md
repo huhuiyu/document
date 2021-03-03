@@ -15,7 +15,7 @@
   - 后端打包脚本搬移到服务器
   - git相关账号和ssh管理
   - 开发访问key管理
-
+  - 移除gitee的项目提交(因为大小限制问题)
 - 项目改造完毕列表
   - `document`-知识点文档项目
   - `huhuiyu.java.common`-java公用项目
