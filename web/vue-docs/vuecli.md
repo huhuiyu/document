@@ -10,3 +10,4 @@
 - [vue脚手架安装](/web/vue-docs/vuecli/vuecli-install.md)
 - [使用vue脚手架创建项目](/web/vue-docs/vuecli/vuecli-basic.md)
 - [使用vue脚手架创建vue2.x带路由的模板项目](/web/vue-docs/vuecli/vue2-router.md)
+- [js导入(包括第三方库)](/web/vue-docs/vuecli/vuecli-importjs.md)
