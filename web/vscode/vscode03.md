@@ -53,7 +53,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   // 图标配置（需要安装VSCode Great Icons插件）
-  "workbench.iconTheme": "vscode-great-icons"
+  "workbench.iconTheme": "vscode-great-icons",
+  // 开启打字特效（需要安装Power Mode插件）
+  "powermode.enabled": true,
+  // 打字效果设置
+  "powermode.presets": "magic",
+  // 颜色主题（需要安装Dracula Official插件）
+  "workbench.colorTheme": "Dracula"
 }
 ```
 
