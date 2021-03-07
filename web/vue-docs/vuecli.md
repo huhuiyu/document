@@ -17,3 +17,4 @@
 - 源码
   - [vue2.x带路由的模板项目源码](/souces/vue2-router-template/)
   - [vue2.x(js，css导入，第三方框架)模板项目源码](/souces/vue2-template/)
+  - [vue2.x上课用模板项目源码](/souces/vue2-teach-template)
