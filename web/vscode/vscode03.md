@@ -40,10 +40,6 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // json配置文件使用prettier格式化功能（需要安装prettier插件）
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   // json使用prettier格式化功能（需要安装prettier插件）
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -52,14 +48,20 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  // 图标配置（需要安装VSCode Great Icons插件）
-  "workbench.iconTheme": "vscode-great-icons",
-  // 开启打字特效（需要安装Power Mode插件）
+  // md文件格式化配置（需要安装markdown-all-in-one插件）
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  // 关闭插件推荐提醒
+  "extensions.ignoreRecommendations": true,
+  // Dracula颜色主题设置（需要安装Dracula Official插件）
+  "workbench.colorTheme": "Dracula",
+  // PowerMode效果启用（需要安装Power Mode插件）
   "powermode.enabled": true,
-  // 打字效果设置
+  // PowerMode效果为magic，可以自己选择
   "powermode.presets": "magic",
-  // 颜色主题（需要安装Dracula Official插件）
-  "workbench.colorTheme": "Dracula"
+  // 文件图标主题设置（需要安装VSCode Great Icons插件）
+  "workbench.iconTheme": "vscode-great-icons"
 }
 ```
 
