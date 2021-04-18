@@ -15,6 +15,9 @@
   - 其中cpu使用率表示：%us：表示用户空间程序的cpu使用率，%sy：表示系统空间的cpu使用率，%id：空闲cpu
 - `df -h`显示磁盘使用  
 - `shutdown -r now`重启系统  
+- `ps -aux | grep 要查找的进程名称`查找指定的进程信息
+- `kill -9 pid`终止pid指定的进程
+
 [返回顶端](#linux命令)
 
 ---

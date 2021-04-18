@@ -8,8 +8,8 @@
 - 下载：`wget https://repo.mysql.com//mysql80-community-release-el8-1.noarch.rpm`
 - 安装源：`yum install mysql80-community-release-el8-1.noarch.rpm -y`
 - 查看安装配置文件：`vi /etc/yum.repos.d/mysql-community.repo`
-- 禁用mysql5：`dnf config-manager --disable mysql57-community` | `yum-config-manager --disable mysql57-community`
-- 启用mysql8：`dnf config-manager --enable mysql80-community` | `yum-config-manager --enable mysql80-community`
+- 禁用mysql5：`dnf config-manager --disable mysql57-community` 或者 `yum-config-manager --disable mysql57-community`
+- 启用mysql8：`dnf config-manager --enable mysql80-community` 或者 `yum-config-manager --enable mysql80-community`
 - 关闭默认mysql：`yum module disable mysql -y`
 - 安装mysql`yum install mysql-community-server -y`
 - 启用mysql服务：`systemctl enable mysqld`

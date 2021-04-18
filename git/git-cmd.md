@@ -63,7 +63,7 @@
 
 - 查看配置信息：`git config --list`
 - 设置用户名`git config --global user.name "用户名"`
-- 设置用户名`git config --global user.email "用户邮箱"`
+- 设置邮箱`git config --global user.email "用户邮箱"`
 [返回顶端](#git指令)
 
 ---
