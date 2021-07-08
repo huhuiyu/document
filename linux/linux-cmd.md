@@ -17,6 +17,8 @@
 - `shutdown -r now`重启系统  
 - `ps -aux | grep 要查找的进程名称`查找指定的进程信息
 - `kill -9 pid`终止pid指定的进程
+- `tail -f 文件名称`实时跟踪文件，`-n 20`参数可以看最新的20行
+- `netstat -ntlp`查看端口使用情况，`lsof -i tcp:80`查看80端口使用情况
 
 [返回顶端](#linux命令)
 
