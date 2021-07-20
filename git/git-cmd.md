@@ -14,6 +14,7 @@
   - [冲突和更改撤销](#冲突和更改撤销)
   - [同步多个远程资源库](#同步多个远程资源库)
   - [配置信息](#配置信息)
+  - [标记版本](#标记版本)
 
 ## 基本指令
 
@@ -39,13 +40,21 @@
 
 ## 冲突和更改撤销
 
-- 查看提交日志信息：`git log`
+- 查看提交日志信息：`git log`（退出log界面按`q`键）
 - 版本回退
   - 回退版本：`git reset --hard 通过git log查看的历史版本号`
   - 推送版本回退到远程分支：`git push -f`
 - 冲突解决
   - 拉取版本更新：`git pull`后修改冲突
-  - 执行正常的提交和推送  
+  - 执行正常的提交和推送
+- 放弃本地修改
+  - `git fetch --all`
+  - `git reset --hard origin/分支名称`
+  - `git pull`
+- 保留本地修改
+  - `git stash`
+  - `git pull`
+  - `git stash pop`
 [返回顶端](#git指令)
 
 ## 同步多个远程资源库
@@ -64,6 +73,15 @@
 - 查看配置信息：`git config --list`
 - 设置用户名`git config --global user.name "用户名"`
 - 设置邮箱`git config --global user.email "用户邮箱"`
+[返回顶端](#git指令)
+
+## 标记版本
+
+- 查看所有标记：`git tag`
+- 添加标记`git tag 标记名称`
+- 给指定提交的版本添加标记`git tag 标记名称 提交的commit标识`
+- 给指定提交的版本添加标记并添加说明`git tag -a 标记名称 -m "版本说明信息" 提交的commit标识`
+- 查看提交日志信息：`git log`（退出log界面按`q`键）
 [返回顶端](#git指令)
 
 ---
