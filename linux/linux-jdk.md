@@ -5,7 +5,7 @@
 ---
 
 - 执行`yum search java|grep jdk`查找可用的`jdk`版本
-- 执行`yum install java-1.8.0-openjdk-devel.x86_64 -y`安装`openjdk1.8`
+- 执行`yum install java-11-openjdk-devel.x86_64 -y`安装`openjdk11`
 - 执行`javac -version`测试`jdk`是否安装成功
 
 ---

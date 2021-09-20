@@ -13,6 +13,7 @@ baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
 gpgcheck=1
 enabled=1
 gpgkey=https://nginx.org/keys/nginx_signing.key
+module_hotfixes=true
 ```
 
 - 执行`yum install nginx -y`安装nginx
