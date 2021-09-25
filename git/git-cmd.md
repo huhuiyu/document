@@ -15,6 +15,7 @@
   - [同步多个远程资源库](#同步多个远程资源库)
   - [配置信息](#配置信息)
   - [标记版本](#标记版本)
+  - [清除历史](#清除历史)
 
 ## 基本指令
 
@@ -84,6 +85,16 @@
   - 查看提交日志信息：`git log`（退出log界面按`q`键）
 - 推送标记到远程资源库：`git push origin 标记名称`
 - 删除标记：`git tag -d 标记名称`
+[返回顶端](#git指令)
+
+## 清除历史
+
+- 检出最新版本：`git checkout --orphan latest_branch`
+- 添加所有文件：`git add -A`
+- 提交：`git commit -am 'renew'`
+- 删除主分支：`git branch -D master`
+- 重建主分支：`git branch -m master`
+- 强制更新：`git push -f origin master`
 [返回顶端](#git指令)
 
 ---
