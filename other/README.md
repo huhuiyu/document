@@ -4,6 +4,7 @@
 
 ---
 
+- [oss应用](/other/Oss.md)
 - [markdown](/other/Markdown.md)
 - [围棋打谱](/other/Go.md)
 
