@@ -15,6 +15,7 @@
 - [nginx安装](/linux/linux-nginx.md)
 - [git安装](/linux/linux-git.md)
 - [putty](/linux/linux-putty.md)
+- [svn](/linux/linux-svn.md)
 
 ---
 [返回首页](/main/README.md)
