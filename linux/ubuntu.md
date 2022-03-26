@@ -1,0 +1,33 @@
+# ubuntu服务器配置
+
+- 更新安装源指令`apt-get update`
+- 安装tmux`apt install tmux -y`
+- 防火墙
+  - 安装`apt install ufw -y`
+  - 查看状态`ufw status`
+  - 开启端口|协议
+    - ssh端口：`ufw allow 22/tcp`|`ufw allow ssh`
+    - mysql端口：`ufw allow 3306/tcp`
+    - redis端口：`ufw allow 6379/tcp`
+    - http：`ufw allow 80/tcp`|`ufw allow http`
+    - https：`ufw allow 443/tcp`|`ufw allow https`
+  - 启用/禁用防火墙`ufw enable`|`ufw disable`
+  - 查看防火墙规则编号`ufw status numbered`
+  - 删除对应编号的规则`ufw delete 2`
+  - 删除防火墙规则`ufw delete allow 8080/tcp`
+- mysql数据库
+  - 下载安装源（更新地址去mysql官方查找）`curl -OL  https://repo.mysql.com//mysql-apt-config_0.8.22-1_all.deb`
+  - 更新安装配置`sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb`，界面选mysql8后选ok即可
+  - 更新安装源`apt update`
+  - 安装mysql`apt install mysql-server -y`中途会出现输入root密码和密码加密模式选项
+  - 启动mysql命令行`mysql -uroot -p`
+- 安装git`apt install git -y`
+- jdk
+  - 查找jdk信息`apt-cache search openjdk`
+  - 安装jdk17`apt install openjdk-17-jdk -y`
+- tomcat
+  - 下载（版本更新去官方网站查看）`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.tar.gz`
+  - 解压`tar -zxvf apache-tomcat-8.5.77.tar.gz`
+- redis
+  - 安装redis`apt install redis-server -y`
+  - 修改redis配置：`vi /etc/redis/redis.conf`，修改密码查找`requirepass`，修改ip绑定查找`bind`，修改端口查找`port`

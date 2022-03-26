@@ -16,6 +16,7 @@
 - [git安装](/linux/linux-git.md)
 - [putty](/linux/linux-putty.md)
 - [svn](/linux/linux-svn.md)
+- [ubuntu服务器配置](/linux/ubuntu.md)
 
 ---
 [返回首页](/main/README.md)
