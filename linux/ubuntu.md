@@ -31,3 +31,16 @@
 - redis
   - 安装redis`apt install redis-server -y`
   - 修改redis配置：`vi /etc/redis/redis.conf`，修改密码查找`requirepass`，修改ip绑定查找`bind`，修改端口查找`port`
+- nginx
+  - 安装redis`apt install nginx -y`
+  - 执行`nginx -v`查看安装是否成功(会显示版本号)
+  - 配置nginx服务开机启动指令：`systemctl enable nginx`
+  - 关闭nginx服务开机启动指令：`systemctl disable nginx`
+  - 启动服务指令：`systemctl start nginx`
+  - 停止服务指令：`systemctl stop nginx`
+  - 配置文件默认位置：`/etc/nginx/nginx.conf`和`/etc/nginx/conf.d/*.conf`
+- nodejs
+  - nodesource安装源`curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -`
+  - 安装`apt-get install -y nodejs`
+  - 查看nodejs版本`node -v`
+  - 查看npm版本`npm -v`
