@@ -32,7 +32,7 @@
   - 安装redis`apt install redis-server -y`
   - 修改redis配置：`vi /etc/redis/redis.conf`，修改密码查找`requirepass`，修改ip绑定查找`bind`，修改端口查找`port`
 - nginx
-  - 安装redis`apt install nginx -y`
+  - 安装nginx`apt install nginx -y`
   - 执行`nginx -v`查看安装是否成功(会显示版本号)
   - 配置nginx服务开机启动指令：`systemctl enable nginx`
   - 关闭nginx服务开机启动指令：`systemctl disable nginx`
