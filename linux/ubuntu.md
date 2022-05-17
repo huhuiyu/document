@@ -44,3 +44,8 @@
   - 安装`apt-get install -y nodejs`
   - 查看nodejs版本`node -v`
   - 查看npm版本`npm -v`
+  - 修改全局安装和缓存配置
+    - 修改npm全局安装位置：`npm config set prefix "全局安装路径"`
+    - 修改npm全局缓存位置：`npm config set prefix "全局缓存路径"`
+    - 查看配置信息：`npm config ls`
+    - 最后修改环境变量，添加全局安装路径
