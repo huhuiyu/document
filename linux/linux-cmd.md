@@ -31,6 +31,12 @@
 - 查看更新：`yum check-update`
 - 更新全部软件：`yum update`，更新指定软件：`yum update 软件包名`
 - 查找软件：`yum search 关键字|grep 过滤条件`
+- centos更新软件源
+  - 删除AppStream源：`rm -f /etc/yum.repos.d/CentOS-AppStream.repo`
+  - 取消并备份旧yum源（可直接删除）：`mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup`
+  - 下载vault源：`curl -o /etc/yum.repos.d/CentOS-Base.repo https://mirrors.aliyun.com/repo/Centos-vault-8.5.2111.repo`
+  - 清除yum缓存：`yum clean all`
+  - 生成新缓存：`yum makecache`
 
 [返回顶端](#linux命令)
 
