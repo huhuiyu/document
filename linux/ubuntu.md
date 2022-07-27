@@ -1,9 +1,9 @@
 # ubuntu服务器配置
 
 - 更新安装源指令`apt-get update`
-- 安装tmux`apt install tmux -y`
+- 安装tmux`apt-get install tmux -y`
 - 防火墙
-  - 安装`apt install ufw -y`
+  - 安装`apt-get install ufw -y`
   - 查看状态`ufw status`
   - 开启端口|协议
     - ssh端口：`ufw allow 22/tcp`|`ufw allow ssh`
@@ -18,21 +18,23 @@
 - mysql数据库
   - 下载安装源（更新地址去mysql官方查找）`curl -OL  https://repo.mysql.com//mysql-apt-config_0.8.22-1_all.deb`
   - 更新安装配置`sudo dpkg -i mysql-apt-config_0.8.22-1_all.deb`，界面选mysql8后选ok即可
-  - 更新安装源`apt update`
-  - 安装mysql`apt install mysql-server -y`中途会出现输入root密码和密码加密模式选项
+  - 更新安装源`apt-get update`
+  - 安装mysql`apt-get install mysql-server -y`中途会出现输入root密码和密码加密模式选项
   - 启动mysql命令行`mysql -uroot -p`
-- 安装git`apt install git -y`
+- git
+  - 安装git`apt-get install git -y`
+  - 查看git版本`git --vesion`
 - jdk
   - 查找jdk信息`apt-cache search openjdk`
-  - 安装jdk17`apt install openjdk-17-jdk -y`
+  - 安装jdk17`apt-get install openjdk-17-jdk -y`
 - tomcat
-  - 下载（版本更新去官方网站查看）`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.77/bin/apache-tomcat-8.5.77.tar.gz`
-  - 解压`tar -zxvf apache-tomcat-8.5.77.tar.gz`
+  - 下载（版本更新去官方网站查看）`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz`
+  - 解压`tar -zxvf apache-tomcat-8.5.81.tar.gz`
 - redis
-  - 安装redis`apt install redis-server -y`
+  - 安装redis`apt-get install redis-server -y`
   - 修改redis配置：`vi /etc/redis/redis.conf`，修改密码查找`requirepass`，修改ip绑定查找`bind`，修改端口查找`port`
 - nginx
-  - 安装nginx`apt install nginx -y`
+  - 安装nginx`apt-get install nginx -y`
   - 执行`nginx -v`查看安装是否成功(会显示版本号)
   - 配置nginx服务开机启动指令：`systemctl enable nginx`
   - 关闭nginx服务开机启动指令：`systemctl disable nginx`
@@ -49,3 +51,23 @@
     - 修改npm全局缓存位置：`npm config set cache "全局缓存路径"`
     - 查看配置信息：`npm config ls`
     - 最后修改环境变量，添加全局安装路径
+- webhook
+  - 安装golang`apt-get install -y golang`
+  - 查看golang安装信息`go env`
+  - 查看golang版本`go version`
+  - 安装webhook`apt-get install -y webhook`
+  - 查看webhook版本`webhook -version`
+  - 启动webhook服务`webhook -port 10000 -hooks webhook-config.json -verbose`
+    - `-port参数指定端口,-hooks参数指定配置文件，-verbose是控制台输出信息`
+    - 配置文件中执行的sh脚本文件需要在第一行加上`#!/bin/sh`
+    - 配置文件范本
+
+```json
+[
+  {
+    "id":"pull-server-test-project",
+    "execute-command":"/home/huhuiyu/webhook/pull_server-test-project.sh",
+    "command-working-directory":"/home/huhuiyu/webhook"
+  }
+]
+```
