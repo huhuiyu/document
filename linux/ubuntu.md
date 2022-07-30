@@ -2,6 +2,9 @@
 
 - 更新安装源指令`apt-get update`
 - 安装tmux`apt-get install tmux -y`
+- ssh
+  - 需要在`/etc/ssh/ssh_config`文件中添加一行`PubkeyAcceptedKeyTypes +ssh-rsa`配置启用rsa的ssh连接
+  - 也可以在用户目录中添加`~/.ssh/config`文件,内容为`HostKeyAlgorithms +ssh-rsa`配置启用rsa的ssh连接
 - 防火墙
   - 安装`apt-get install ufw -y`
   - 查看状态`ufw status`
@@ -23,16 +26,21 @@
   - 启动mysql命令行`mysql -uroot -p`
 - git
   - 安装git`apt-get install git -y`
-  - 查看git版本`git --vesion`
+  - 查看git版本`git --version`
 - jdk
   - 查找jdk信息`apt-cache search openjdk`
   - 安装jdk17`apt-get install openjdk-17-jdk -y`
+  - 查看java版本`javac -version`
 - tomcat
   - 下载（版本更新去官方网站查看）`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.81/bin/apache-tomcat-8.5.81.tar.gz`
   - 解压`tar -zxvf apache-tomcat-8.5.81.tar.gz`
+- unzip
+  - 安装unzip：`apt-get install unzip -y`
+  - 解压：`unzip 文件名`
 - redis
   - 安装redis`apt-get install redis-server -y`
   - 修改redis配置：`vi /etc/redis/redis.conf`，修改密码查找`requirepass`，修改ip绑定查找`bind`，修改端口查找`port`
+  - 重启redis服务`systemctl restart redis`
 - nginx
   - 安装nginx`apt-get install nginx -y`
   - 执行`nginx -v`查看安装是否成功(会显示版本号)
