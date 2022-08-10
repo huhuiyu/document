@@ -59,6 +59,9 @@
     - 修改npm全局缓存位置：`npm config set cache "全局缓存路径"`
     - 查看配置信息：`npm config ls`
     - 最后修改环境变量，添加全局安装路径
+  - npm全局指令错误提示问题处理
+    - 执行`npm install --global --production npm-windows-upgrade`安装npm更新工具
+    - 管理员身份执行`npm-windows-upgrade`启动npm更新，选择最新版本回车安装即可
 - webhook
   - 安装golang`apt-get install -y golang`
   - 查看golang安装信息`go env`
