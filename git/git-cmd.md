@@ -74,6 +74,10 @@
 - 查看配置信息：`git config --list`
 - 设置用户名`git config --global user.name "用户名"`
 - 设置邮箱`git config --global user.email "用户邮箱"`
+- windows平台换行问题
+  - 执行`git config --global core.autocrlf true`，让git检出是自动转换lf为crlf，提交时自动转换回lf
+  - 也可以执行`git config --global core.safecrlf true`，让git拒绝提交包含混合换行符的文件
+  - 也可以通过修改`.gitattributes`文件单独配置资源库
 [返回顶端](#git指令)
 
 ## 标记版本
