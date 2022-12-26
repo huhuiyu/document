@@ -1,6 +1,6 @@
 # 前端开发教程
 
-[返回首页](/main/README.md)
+[返回首页](../README.md)
 
 ---
 
@@ -10,4 +10,4 @@
 
 ---
 
-[返回首页](/main/README.md)
+[返回首页](../README.md)
