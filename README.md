@@ -8,3 +8,4 @@
 - [其它知识](/other/README.md)
 - [源码git地址](/GitLinks.md)
 - [流程图](./Pic.md)
+![step0001](https://media.huhuiyu.top/huhuiyu.top/images/huhuiyu_wechat.jpg)
