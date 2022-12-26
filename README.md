@@ -7,3 +7,4 @@
 - [linux](/linux/README.md)
 - [其它知识](/other/README.md)
 - [源码git地址](/GitLinks.md)
+- [流程图](./Pic.md)
