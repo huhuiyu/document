@@ -1,6 +1,9 @@
 # 插件
 
 - [返回](./README.md)
+
+---
+
 - [插件](#插件)
   - [英文状态下安装插件](#英文状态下安装插件)
   - [中文状态下安装插件](#中文状态下安装插件)
@@ -8,19 +11,21 @@
 
 ## 英文状态下安装插件
 
----
 <section class="img-flex-box" >
   <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt=""></section>
   <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt=""></section>
  </section>
+
+- [返回目录](#插件)
 
 ## 中文状态下安装插件
 
----
 <section class="img-flex-box" >
   <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt=""></section>
   <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt=""></section>
  </section>
+
+- [返回目录](#插件)
 
 ## 插件列表
 
@@ -43,6 +48,10 @@
 - 其它
   - `filesize`：文件大小显示
   - `Git Graph`：git信息图形显示
+
+- [返回目录](#插件)
+
+---
 
 - [返回](./README.md)
 
