@@ -9,14 +9,13 @@
 
 <link rel="stylesheet" href="https://huhuiyu.top/css/github.css">
 <section class="img-flex-box" >
-  <img  src="../../images/webfront/vscode-install/vscode-install002.png" alt="">
-  <img  src="../../images/webfront/vscode-install/vscode-install003.png" alt="">
-  <img  src="../../images/webfront/vscode-install/vscode-install004.png" alt="">
-  <img  src="../../images/webfront/vscode-install/vscode-install005.png" alt="">
-  <img  src="../../images/webfront/vscode-install/vscode-install006.png" alt="">
-  <img  src="../../images/webfront/vscode-install/vscode-install007.png" alt="">
-  <img  src="../../images/webfront/vscode-install/vscode-install008.png" alt="">
-  <img  src="../../images/webfront/vscode-install/vscode-install009.png" alt="">
+  <section><img  src="../../images/webfront/vscode-install/vscode-install003.png" alt=""></section>
+  <section><img  src="../../images/webfront/vscode-install/vscode-install004.png" alt=""></section>
+  <section><img  src="../../images/webfront/vscode-install/vscode-install005.png" alt=""></section>
+  <section><img  src="../../images/webfront/vscode-install/vscode-install006.png" alt=""></section>
+  <section><img  src="../../images/webfront/vscode-install/vscode-install007.png" alt=""></section>
+  <section><img  src="../../images/webfront/vscode-install/vscode-install008.png" alt=""></section>
+  <section><img  src="../../images/webfront/vscode-install/vscode-install009.png" alt=""></section>
 </section>
 
 ---
