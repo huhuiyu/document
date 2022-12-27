@@ -7,14 +7,17 @@
 
 ---
 
-![step0001](../../images/webfront/vscode-install/vscode-install002.png)
-![step0001](../../images/webfront/vscode-install/vscode-install003.png)
-![step0001](../../images/webfront/vscode-install/vscode-install004.png)
-![step0001](../../images/webfront/vscode-install/vscode-install005.png)
-![step0001](../../images/webfront/vscode-install/vscode-install006.png)
-![step0001](../../images/webfront/vscode-install/vscode-install007.png)
-![step0001](../../images/webfront/vscode-install/vscode-install008.png)
-![step0001](../../images/webfront/vscode-install/vscode-install009.png)
+<link rel="stylesheet" href="https://huhuiyu.top/css/github.css">
+<section class="img-flex-box" >
+  <img  src="../../images/webfront/vscode-install/vscode-install002.png" alt="">
+  <img  src="../../images/webfront/vscode-install/vscode-install003.png" alt="">
+  <img  src="../../images/webfront/vscode-install/vscode-install004.png" alt="">
+  <img  src="../../images/webfront/vscode-install/vscode-install005.png" alt="">
+  <img  src="../../images/webfront/vscode-install/vscode-install006.png" alt="">
+  <img  src="../../images/webfront/vscode-install/vscode-install007.png" alt="">
+  <img  src="../../images/webfront/vscode-install/vscode-install008.png" alt="">
+  <img  src="../../images/webfront/vscode-install/vscode-install009.png" alt="">
+</section>
 
 ---
 

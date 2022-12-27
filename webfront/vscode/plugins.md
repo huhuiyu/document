@@ -9,14 +9,18 @@
 ## 英文状态下安装插件
 
 ---
-![step0001](../../images/webfront/vscode-plugins/vscode-plugins0001.png)
-![step0001](../../images/webfront/vscode-plugins/vscode-plugins0002.png)
+<section class="img-flex-box" >
+  <img  src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt="">
+  <img  src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt="">
+ </section>
 
 ## 中文状态下安装插件
 
 ---
-![step0001](../../images/webfront/vscode-plugins/vscode-plugins0003.png)
-![step0001](../../images/webfront/vscode-plugins/vscode-plugins0004.png)
+<section class="img-flex-box" >
+  <img  src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt="">
+  <img  src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt="">
+ </section>
 
 ## 插件列表
 
@@ -41,3 +45,5 @@
   - `Git Graph`：git信息图形显示
 
 - [返回](./README.md)
+
+<link rel="stylesheet" href="https://huhuiyu.top/css/github.css">

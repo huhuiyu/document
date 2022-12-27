@@ -1,7 +1,7 @@
 {
   "markdownlint.config": {
     "MD033": {
-      "allowed_elements": ["img"]
+      "allowed_elements": ["img","section","link"]
     }
   }
 }
