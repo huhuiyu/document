@@ -10,7 +10,6 @@
 
 ---
 
-<link rel="stylesheet" href="https://huhuiyu.top/css/github.css">
 <section class="img-flex-box" >
   <section><img  src="../../images/webfront/vscode-install/vscode-install003.png" alt=""></section>
   <section><img  src="../../images/webfront/vscode-install/vscode-install004.png" alt=""></section>
@@ -24,3 +23,6 @@
 ---
 
 - [返回](./README.md)
+
+<!-- js处理背景和css样式 -->
+<script type="module" src="https://huhuiyu.top/js/github.js"></script>
