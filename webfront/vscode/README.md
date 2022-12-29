@@ -6,6 +6,9 @@
 
 - [安装](./install.md)
 - [插件](./plugins.md)
+- [基本配置](./config.md)
+- [字体和代码块](./font.md)
+- [谷歌浏览器](./chrome.md)
 
 ---
 
