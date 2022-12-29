@@ -5,6 +5,7 @@
 ---
 
 - [vscode教程](./vscode/README.md)
+- [html基础](./html-course/README.md)
 
 ---
 
