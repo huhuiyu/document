@@ -1,6 +1,6 @@
 # 注释和转义字符
 
-[返回目录](/web/basic/README.md)
+- [返回目录](/web/basic/README.md)
 
 ---
 
@@ -30,7 +30,7 @@
 
 ---
 
-[返回顶端](#注释和转义字符)
+- [注释和转义字符](#注释和转义字符)
 
 <!-- js处理背景和css样式 -->
 <script type="module" src="https://huhuiyu.top/js/github.js"></script>

@@ -53,7 +53,7 @@
 
 ---
 
-- [返回](./README.md)
+- [返回](#插件)
 
 <!-- js处理背景和css样式 -->
 <script type="module" src="https://huhuiyu.top/js/github.js"></script>

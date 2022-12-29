@@ -1,6 +1,6 @@
 # 网页基本模板
 
-[返回目录](./README.md)
+- [返回目录](./README.md)
 
 ---
 
@@ -19,7 +19,7 @@
 
 ---
 
-[返回顶端](#网页基本模板)
+- [网页基本模板](#网页基本模板)
 
 <!-- js处理背景和css样式 -->
 <script type="module" src="https://huhuiyu.top/js/github.js"></script>

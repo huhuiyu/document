@@ -1,6 +1,6 @@
 # web项目(文件夹)
 
-[返回目录](./README.md)
+- [返回目录](./README.md)
 
 ---
 
@@ -26,7 +26,7 @@
 
 ---
 
-[返回顶端](#web项目文件夹)
+- [web项目(文件夹)](#web项目文件夹)
 
 <!-- js处理背景和css样式 -->
 <script type="module" src="https://huhuiyu.top/js/github.js"></script>
