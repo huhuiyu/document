@@ -44,7 +44,7 @@
 - 查看用户列表：`ls -l /home/`
 - 创建用户：`adduser 用户名`
 - 修改用户密码：`passwd 用户名`
-- 切换用户：`su - 用户名`，切换root用户：`su -`，退出用户：`exit` | `Ctrl + d`
+- 切换用户：`su - 用户名`，切换root用户：`su -`，退出用户：`exit`或者`Ctrl + d`
 - 修改sudo权限：`visudo`，添加内容：`用户名 ALL=(ALL:ALL) ALL`
   - 如希望用户sudo不输入密码则是：`用户名 ALL=(ALL:ALL) NOPASSWD:ALL`
 - 删除用户：`userdel -rf 用户名`
@@ -61,12 +61,12 @@
 - 安装`apt-get install ufw -y`
 - 查看状态`ufw status`
 - 开启端口|协议
-  - ssh端口：`ufw allow 22/tcp`|`ufw allow ssh`
+  - ssh端口：`ufw allow 22/tcp`或者`ufw allow ssh`
   - mysql端口：`ufw allow 3306/tcp`
   - redis端口：`ufw allow 6379/tcp`
-  - http：`ufw allow 80/tcp`|`ufw allow http`
-  - https：`ufw allow 443/tcp`|`ufw allow https`
-- 启用/禁用防火墙`ufw enable`|`ufw disable`
+  - http：`ufw allow 80/tcp`或者`ufw allow http`
+  - https：`ufw allow 443/tcp`或者`ufw allow https`
+- 启用/禁用防火墙`ufw enable`或者`ufw disable`
 - 查看防火墙规则编号`ufw status numbered`
 - 删除对应编号的规则`ufw delete 2`
 - 删除防火墙规则`ufw delete allow 8080/tcp`
