@@ -5,6 +5,8 @@
 ---
 
 - [安装](./install.md)
+- [ssh配置](./ssh.md)
+- [git指令](./git-cmd.md)
 
 ---
 
