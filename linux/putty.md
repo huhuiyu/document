@@ -24,6 +24,11 @@
   <section><img class="lazy-image" data-src="../images/linux/putty-install006.png" alt=""></section>
 </section>
 
+- [putty](#putty)
+  - [安装putty](#安装putty)
+  - [ssh配置之putty密钥生成](#ssh配置之putty密钥生成)
+  - [ssh配置之服务端配置](#ssh配置之服务端配置)
+
 ## ssh配置之putty密钥生成
 
 <section class="img-flex-box" >
@@ -40,6 +45,11 @@
   <section><img class="lazy-image" data-src="../images/linux/putty-ssh011.png" alt=""></section>
   <section><img class="lazy-image" data-src="../images/linux/putty-ssh012.png" alt=""></section>
 </section>
+
+- [putty](#putty)
+  - [安装putty](#安装putty)
+  - [ssh配置之putty密钥生成](#ssh配置之putty密钥生成)
+  - [ssh配置之服务端配置](#ssh配置之服务端配置)
 
 ## ssh配置之服务端配置
 
