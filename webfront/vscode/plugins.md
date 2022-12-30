@@ -12,8 +12,8 @@
 ## 英文状态下安装插件
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt=""></section>
-  <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt=""></section>
  </section>
 
 - [返回目录](#插件)
@@ -21,8 +21,8 @@
 ## 中文状态下安装插件
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt=""></section>
-  <section><img  src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-plugins/vscode-plugins0001.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-plugins/vscode-plugins0002.png" alt=""></section>
  </section>
 
 - [返回目录](#插件)

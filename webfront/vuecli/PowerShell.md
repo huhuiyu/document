@@ -5,11 +5,11 @@
 ---
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/powershell/powershell-0001.png" alt=""></section>
-  <section><img  src="../../images/webfront/powershell/powershell-0002.png" alt=""></section>
-  <section><img  src="../../images/webfront/powershell/powershell-0003.png" alt=""></section>
-  <section><img  src="../../images/webfront/powershell/powershell-0004.png" alt=""></section>
-  <section><img  src="../../images/webfront/powershell/powershell-0005.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/powershell/powershell-0001.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/powershell/powershell-0002.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/powershell/powershell-0003.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/powershell/powershell-0004.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/powershell/powershell-0005.png" alt=""></section>
 </section>
 
 - 为啥要配置：vue脚手架需要执行shell脚本

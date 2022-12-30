@@ -5,8 +5,8 @@
 ---
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/nodejs/nodejs-0013.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0014.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0013.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0014.png" alt=""></section>
 </section>
 
 - 为什么要切换安装源，国内的安装源速度更快

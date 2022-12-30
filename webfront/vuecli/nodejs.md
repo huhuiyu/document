@@ -8,18 +8,18 @@
 - [本地下载地址](https://media.huhuiyu.top/download/node-v18.12.1-x64.msi)
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/nodejs/nodejs-0001.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0002.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0003.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0004.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0005.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0006.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0007.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0008.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0009.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0010.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0011.png" alt=""></section>
-  <section><img  src="../../images/webfront/nodejs/nodejs-0012.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0001.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0002.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0003.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0004.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0005.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0006.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0007.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0008.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0009.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0010.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0011.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0012.png" alt=""></section>
 </section>
 
 - 图中的指令

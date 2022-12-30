@@ -5,9 +5,9 @@
 ---
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/course-images/img0021.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0022.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0023.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0021.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0022.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0023.png" alt=""></section>
 </section>
 
 ```txt
@@ -23,9 +23,9 @@
 - [html转义字符表](https://tool.oschina.net/commons?type=2)
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/course-images/img0024.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0025.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0026.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0024.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0025.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0026.png" alt=""></section>
 </section>
 
 ---

@@ -1,7 +1,14 @@
-# 胡辉煜的教程文档网站
+# git
 
-- [web前端开发](./webfront/README.md)
-- [GIT](./git/README.md)
+- [返回](../README.md)
+
+---
+
+- [安装](./install.md)
+
+---
+
+- [返回](../README.md)
 
 <!-- js处理背景和css样式 -->
 <script type="module" src="https://huhuiyu.top/js/github.js"></script>

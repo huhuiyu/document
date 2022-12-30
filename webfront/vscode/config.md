@@ -7,10 +7,10 @@
 - 全局配置和工作区配置方式
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vscode-config/vscode-config0001.png" alt=""></section>
-  <section><img  src="../../images/webfront/vscode-config/vscode-config0002.png" alt=""></section>
-  <section><img  src="../../images/webfront/vscode-config/vscode-config0003.png" alt=""></section>
-  <section><img  src="../../images/webfront/vscode-config/vscode-config0004.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-config/vscode-config0001.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-config/vscode-config0002.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-config/vscode-config0003.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vscode-config/vscode-config0004.png" alt=""></section>
 </section>
 
 - 一个配置文件示例

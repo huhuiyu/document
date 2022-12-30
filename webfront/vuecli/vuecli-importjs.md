@@ -13,30 +13,30 @@
 ## 自定义js导入
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vuecli/vuecli-0042.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0043.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0044.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0045.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0042.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0043.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0044.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0045.png" alt=""></section>
 </section>
 
 ## 导入第三方js
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vuecli/vuecli-0046.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0047.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0048.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0049.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0046.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0047.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0048.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0049.png" alt=""></section>
 </section>
 
 ## 简单封装ajax
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vuecli/vuecli-0050.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0051.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0052.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0053.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0054.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0055.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0050.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0051.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0052.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0053.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0054.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0055.png" alt=""></section>
 </section>
 
 ## 图中的一些指令和核心代码

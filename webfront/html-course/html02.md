@@ -5,16 +5,16 @@
 ---
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/course-images/img0011.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0012.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0013.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0014.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0015.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0016.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0017.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0018.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0019.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0020.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0011.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0012.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0013.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0014.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0015.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0016.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0017.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0018.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0019.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0020.png" alt=""></section>
 </section>
 
 ---

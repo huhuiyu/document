@@ -7,10 +7,10 @@
 [饿了么ui官方网站](https://element.eleme.cn/#/zh-CN)
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vuecli/vuecli-0074.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0075.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0076.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0077.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0074.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0075.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0076.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0077.png" alt=""></section>
 </section>
 
 ---

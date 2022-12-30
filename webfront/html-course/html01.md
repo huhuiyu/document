@@ -5,16 +5,16 @@
 ---
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/course-images/img0001.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0002.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0003.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0004.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0005.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0006.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0007.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0008.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0009.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0010.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0001.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0002.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0003.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0004.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0005.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0006.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0007.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0008.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0009.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0010.png" alt=""></section>
 </section>
 
 ```txt

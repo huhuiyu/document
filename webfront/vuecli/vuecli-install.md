@@ -5,9 +5,9 @@
 ---
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/vuecli/vuecli-0001.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0002.png" alt=""></section>
-  <section><img  src="../../images/webfront/vuecli/vuecli-0003.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0001.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0002.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/vuecli/vuecli-0003.png" alt=""></section>
 </section>
 
 - 说明

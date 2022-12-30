@@ -5,10 +5,10 @@
 ---
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/course-images/img0027.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0028.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0029.png" alt=""></section>
-  <section><img  src="../../images/webfront/course-images/img0030.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0027.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0028.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0029.png" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/img0030.png" alt=""></section>
 </section>
 
 ```txt
@@ -28,7 +28,7 @@
 ```
 
 <section class="img-flex-box" >
-  <section><img  src="../../images/webfront/course-images/gif0001.gif" alt=""></section>
+  <section><img class="lazy-image" data-src="../../images/webfront/course-images/gif0001.gif" alt=""></section>
 </section>
 
 ---
