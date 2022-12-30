@@ -15,7 +15,7 @@
 
 - 一个配置文件示例
 
-```json
+```txt
 {
   // 搜索排除文件
   "search.exclude": {

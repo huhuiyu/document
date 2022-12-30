@@ -46,7 +46,7 @@
 - ajax框架axios：`npm install --save axios`
 - ajax封装代码
 
-```js
+```txt
 // 导入qs和axios库
 import qs from 'qs';
 import axios from 'axios';
