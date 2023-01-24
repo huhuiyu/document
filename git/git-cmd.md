@@ -25,7 +25,7 @@
 - 推送到远程资源库：`git push`
 - 拉取远程资源库更新文件：`git pull`
 - 查看资源库状态：`git status`  
-[返回顶端](#git指令)
+- [返回顶端](#git指令)
 
 ## 分支管理
 
@@ -37,7 +37,7 @@
 - 删除远程分支：`git push origin --delete 分支名称`，例如：`git push origin --delete test`
 - 合并分支：`git merge 分支名称`，分支名称不能是当前分支
 - 切换当前远程推送资源库`git push --set-upstream origin 分支名称`  
-[返回顶端](#git指令)
+- [返回顶端](#git指令)
 
 ## 冲突和更改撤销
 
@@ -56,7 +56,7 @@
   - `git stash`
   - `git pull`
   - `git stash pop`
-[返回顶端](#git指令)
+- [返回顶端](#git指令)
 
 ## 同步多个远程资源库
 
@@ -67,7 +67,7 @@
   - 执行`git push github`提交github资源库
   - 主资源库提交不同分支需要执行`git push github origin 分支名`，其它资源库不变
 - 可以执行`git remote rm github`来删除github资源库
-[返回顶端](#git指令)
+- [返回顶端](#git指令)
 
 ## 配置信息
 
@@ -78,7 +78,7 @@
   - 执行`git config --global core.autocrlf true`，让git检出是自动转换lf为crlf，提交时自动转换回lf
   - 也可以执行`git config --global core.safecrlf true`，让git拒绝提交包含混合换行符的文件
   - 也可以通过修改`.gitattributes`文件单独配置资源库
-[返回顶端](#git指令)
+- [返回顶端](#git指令)
 
 ## 标记版本
 
@@ -89,7 +89,7 @@
   - 查看提交日志信息：`git log`（退出log界面按`q`键）
 - 推送标记到远程资源库：`git push origin 标记名称`
 - 删除标记：`git tag -d 标记名称`
-[返回顶端](#git指令)
+- [返回顶端](#git指令)
 
 ## 清除历史
 
@@ -99,7 +99,7 @@
 - 删除主分支：`git branch -D master`
 - 重建主分支：`git branch -m master`
 - 强制更新：`git push -f origin master`
-[返回顶端](#git指令)
+- [返回顶端](#git指令)
 
 ---
 
