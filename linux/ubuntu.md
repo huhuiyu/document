@@ -60,12 +60,13 @@
 
 - 安装`apt-get install ufw -y`
 - 查看状态`ufw status`
-- 开启端口|协议
+- 开启端口（协议）
   - ssh端口：`ufw allow 22/tcp`或者`ufw allow ssh`
   - mysql端口：`ufw allow 3306/tcp`
   - redis端口：`ufw allow 6379/tcp`
   - http：`ufw allow 80/tcp`或者`ufw allow http`
   - https：`ufw allow 443/tcp`或者`ufw allow https`
+  - 开放多个端口：`ufw allow 8000:8100/tcp`
 - 启用/禁用防火墙`ufw enable`或者`ufw disable`
 - 查看防火墙规则编号`ufw status numbered`
 - 删除对应编号的规则`ufw delete 2`
