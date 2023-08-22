@@ -6,7 +6,7 @@
 
 - [官方网站](https://git-scm.com/)
 - [点击官方下载](https://git-scm.com/download/win)
-- [点击本地下载](https://media.huhuiyu.top/download/Git-2.39.0.2-64-bit.exe)
+- [点击本地下载](https://media.huhuiyu.top/download/Git-64-bit.exe)
 
 <section class="img-flex-box" >
   <section><img class="lazy-image" data-src="../images/git/install/git-install001.png" alt=""></section>

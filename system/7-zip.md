@@ -5,8 +5,8 @@
 ---
 
 - [官方网站](https://www.7-zip.org/)
-- [点击官方下载](https://www.7-zip.org/a/7z2201-x64.exe)
-- [点击本地下载](https://media.huhuiyu.top/download/7z2201-x64.exe)
+- [点击官方下载](https://7-zip.org/a/7z2301-x64.exe)
+- [点击本地下载](https://media.huhuiyu.top/download/7z-x64.exe)
 
 <section class="img-flex-box" >
   <section><img class="lazy-image" data-src="../images/system/7zip0001.png" alt=""></section>

@@ -5,7 +5,7 @@
 ---
 
 - [nodejs官方网址](https://nodejs.org/en/)
-- [本地下载地址](https://media.huhuiyu.top/download/node-v18.12.1-x64.msi)
+- [本地下载地址](https://media.huhuiyu.top/download/node-x64.msi)
 
 <section class="img-flex-box" >
   <section><img class="lazy-image" data-src="../../images/webfront/nodejs/nodejs-0001.png" alt=""></section>

@@ -6,7 +6,7 @@
 
 - [官方网站](https://code.visualstudio.com/)
 - [点击官方下载](https://aka.ms/win32-x64-user-stable)
-- [点击本地下载](https://media.huhuiyu.top/download/VSCodeUserSetup-x64-1.74.2.exe)
+- [点击本地下载](https://media.huhuiyu.top/download/VSCodeUserSetup-x64.exe)
 
 <section class="img-flex-box" >
   <section><img class="lazy-image" data-src="../../images/webfront/vscode-install/vscode-install003.png" alt=""></section>
