@@ -102,8 +102,8 @@
 ## tomcat
 
 - 下载（版本更新去官方网站查看）
-- 执行：`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.84/bin/apache-tomcat-8.5.84.tar.gz`下载tomcat
-- 解压`tar -zxvf apache-tomcat-8.5.84.tar.gz`
+- 执行：`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.91/bin/apache-tomcat-8.5.91.tar.gz`下载tomcat
+- 解压`tar -zxvf apache-tomcat-8.5.91.tar.gz`
 - [返回顶端](#ubuntu服务器配置)
 
 ## unzip
