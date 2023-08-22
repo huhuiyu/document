@@ -121,13 +121,21 @@
 
 ## nginx
 
-- 安装nginx`apt-get install nginx -y`
-- 执行`nginx -v`查看安装是否成功(会显示版本号)
-- 配置nginx服务开机启动指令：`systemctl enable nginx`
-- 关闭nginx服务开机启动指令：`systemctl disable nginx`
-- 启动服务指令：`systemctl start nginx`
-- 停止服务指令：`systemctl stop nginx`
-- 配置文件默认位置：`/etc/nginx/nginx.conf`和`/etc/nginx/conf.d/*.conf`
+- 默认安装
+  - 安装nginx`apt-get install nginx -y`
+  - 执行`nginx -v`查看安装是否成功(会显示版本号)
+  - 配置nginx服务开机启动指令：`systemctl enable nginx`
+  - 关闭nginx服务开机启动指令：`systemctl disable nginx`
+  - 启动服务指令：`systemctl start nginx`
+  - 停止服务指令：`systemctl stop nginx`
+  - 配置文件默认位置：`/etc/nginx/nginx.conf`和`/etc/nginx/conf.d/*.conf`
+- 最新版本安装
+  - 安装依赖`apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring -y`
+  - 下载nginx签名相关`curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null`
+  - 配置签名`gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg`
+  - 显示nginx安装列表``echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" | tee /etc/apt/sources.list.d/nginx.list``
+  - 更新源`apt update`
+  - 安装nginx`apt-get install nginx -y`
 - [返回顶端](#ubuntu服务器配置)
 
 ## nodejs
