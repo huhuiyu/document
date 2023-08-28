@@ -1,6 +1,6 @@
 # 注释和转义字符
 
-- [返回目录](/web/basic/README.md)
+- [返回目录](./README.md)
 
 ---
 
