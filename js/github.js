@@ -7,7 +7,7 @@ icon.setAttribute('href', 'https://media.huhuiyu.top/huhuiyu.top/hu-logo.jpg');
 head.append(icon);
 let githubcss = document.createElement('link');
 githubcss.setAttribute('rel', 'stylesheet');
-githubcss.setAttribute('href', '/github.css');
+githubcss.setAttribute('href', '/css/github.css');
 head.append(githubcss);
 
 // 背景区块
