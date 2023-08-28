@@ -35,4 +35,4 @@
 - [ms-office安装](#ms-office安装)
 
 <!-- js处理背景和css样式 -->
-<script type="module" src="https://huhuiyu.top/js/github.js"></script>
+<script type="module" src="/js/github.js"></script>

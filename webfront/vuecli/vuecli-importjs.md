@@ -54,7 +54,7 @@ import axios from 'axios';
 let server = {};
 
 // 后台服务基础地址
-server.baseUrl = 'https://huhuiyu.top/teach-demo-service';
+server.baseUrl = '/teach-demo-service';
 
 // 封装ajax请求
 // url：后端api地址，param：发送给后端请求的参数（json格式），通过qs转换成查询字符串格式
@@ -95,4 +95,4 @@ export default server;
   - [图中的一些指令和核心代码](#图中的一些指令和核心代码)
 
 <!-- js处理背景和css样式 -->
-<script type="module" src="https://huhuiyu.top/js/github.js"></script>
+<script type="module" src="/js/github.js"></script>

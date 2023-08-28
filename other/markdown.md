@@ -43,7 +43,7 @@
 
 ---
 
-- 超链接：`[胡辉煜的网站](https://huhuiyu.top/)`:[胡辉煜的网站](https://huhuiyu.top/)
+- 超链接：`[胡辉煜的网站](/)`:[胡辉煜的网站](/)
 
 ---
 
@@ -137,4 +137,4 @@ public class Demo {
 - 分割线`---`，需要前置空行
 
 <!-- js处理背景和css样式 -->
-<script type="module" src="https://huhuiyu.top/js/github.js"></script>
+<script type="module" src="/js/github.js"></script>

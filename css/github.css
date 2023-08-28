@@ -1,0 +1,97 @@
+body {
+  margin: 0px !important;
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.img-flex-box {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  padding: 5vw !important;
+}
+
+.img-flex-box > section {
+  margin: 1rem !important;
+  padding: 0.5rem;
+  border: 1px solid #dcdcdc;
+  border-radius: 0.5rem !important;
+  transition: border 0.5s;
+}
+
+.img-flex-box > section:hover {
+  border-color: #b52393;
+}
+
+/* 默认一行一个 */
+.img-flex-box img {
+  display: block !important;
+  height: auto;
+  max-width: 90vw !important;
+  min-width: 50vw !important;
+}
+
+/* logo可以一行多个 */
+.img-flex-box.logos img {
+  max-width: 10rem !important;
+  min-width: 5rem !important;
+}
+
+@media screen and (max-width: 768px) {
+  .img-flex-box img {
+    width: 90vw !important;
+  }
+  .img-flex-box.logos img {
+    max-width: 90vw !important;
+    min-width: 90vw !important;
+  }
+}
+
+a {
+  text-decoration: none !important;
+  color: #fff;
+  transition: color 0.5s;
+}
+
+a:hover {
+  color: #b52393;
+}
+
+/* 背景特效 */
+.canvas-bg {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -100;
+  background-color: #000;
+}
+
+/* 懒加载图片样式 */
+.lazy-image {
+  background: url('https://media.huhuiyu.top/huhuiyu.top/hu-logo.jpg') no-repeat
+    center;
+  height: 20vh !important;
+}
+
+.highlight {
+  background-color: transparent !important;
+}
+
+pre {
+  background-color: rgba(64, 64, 64, 0.5) !important;
+  padding: 1rem !important;
+  border-radius: 1rem !important;
+}
+
+code.language-plaintext {
+  display: inline-block !important;
+  background-color: rgba(128, 128, 128, 0.5) !important;
+  padding: 3px !important;
+  border-radius: 3px !important;
+}
