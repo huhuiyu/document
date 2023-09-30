@@ -79,7 +79,7 @@
   - 也可以执行`git config --global core.safecrlf true`，让git拒绝提交包含混合换行符的文件
   - 也可以通过修改`.gitattributes`文件单独配置资源库
 - linux平台`chmod`修改权限需要提交的问题
-  - 执行：`git config --add core.filemode false`指令可以让git只关心文件内容变化
+  - 执行：`git config --add core.filemode false`或者：`git config --replace-all core.filemode false`指令可以让git只关心文件内容变化
 - [返回顶端](#git指令)
 
 ## 标记版本
