@@ -20,6 +20,7 @@
   - [nodejs](#nodejs)
   - [webhook](#webhook)
   - [lvm配置](#lvm配置)
+  - [Certbot生成ssl证书](#certbot生成ssl证书)
 
 ## 基础
 
@@ -181,6 +182,22 @@
 - 执行`lvextend -l +10%FREE /dev/ubuntu-vg/ubuntu-lv`分配扩展磁盘，命名中最后部分的路径为`lvdisplay`查看的信息
 - 执行`resize2fs /dev/ubuntu-vg/ubuntu-lv`调整磁盘大小
 
+- [返回顶端](#ubuntu服务器配置)
+
+## Certbot生成ssl证书
+
+- 安装`certbot`
+  - `sudo apt-get update`
+  - `sudo apt install snapd -y`
+  - `sudo snap install core`
+  - `sudo snap refresh core`
+  - `sudo snap install --classic certbot`
+  - `sudo ln -s /snap/bin/certbot /usr/bin/certbot`
+- 生成nginx服务器证书
+  - 需要先配置好域名对应的nginx服务器，方便验证域名所有权
+  - 生成证书：`sudo certbot certonly --email 邮箱 --nginx -d 域名`
+  - 查看证书文件夹：`sudo ls /etc/letsencrypt/live/`
+  - 重新生成证书（每三个月一次）：`sudo certbot renew`
 - [返回顶端](#ubuntu服务器配置)
 
 <!-- js处理背景和css样式 -->
