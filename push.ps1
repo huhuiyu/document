@@ -1,9 +1,9 @@
 # 多仓库推送
 git pull
-Write-Output "===========拉取完成==========="
+Write-Output "===========pull finish==========="
 git push jihulab
-Write-Output "===========推送jihulab完成==========="
+Write-Output "===========push jihulab finish==========="
 git push gitee
-Write-Output "===========推送gitee完成==========="
+Write-Output "===========push gitee finish==========="
 git push
-Write-Output "===========推送github完成==========="
+Write-Output "===========push github finish==========="
