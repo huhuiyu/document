@@ -143,11 +143,15 @@
 
 - 执行：`apt-get install -y nodejs`安装
 - 查看nodejs版本`node -v`
+- 执行：`apt-get install -y npm`安装
 - 查看npm版本`npm -v`
+- 执行：`npm config set registry "https://registry.npmmirror.com"`设置成阿里的安装源
+- 执行：`npm config get registry`查看安装源
 - 更新nodejs
   - 执行`npm install --global n`
-  - 执行`n`选择更新版本
-  - 执行`npm install --global npm`更新npm
+  - 执行`n -V`查看n的版本
+  - 执行`n lts`更新npm到最新lts版本
+  - 重启终端查询版本
 - [返回顶端](#ubuntu服务器配置)
 
 ## webhook
