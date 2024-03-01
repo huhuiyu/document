@@ -53,8 +53,27 @@
 
 ## ssh
 
-- 需要在`/etc/ssh/ssh_config`文件中添加一行`PubkeyAcceptedKeyTypes +ssh-rsa`配置启用rsa的ssh连接
-- 也可以在用户目录中添加`~/.ssh/config`文件,内容为`HostKeyAlgorithms +ssh-rsa`配置启用rsa的ssh连接
+- 生产密钥
+  - 在`git bash`执行：`ssh-keygen -t rsa -C "huhuiyu.top" -f huhuiyu.top`生成密钥文件
+    - `-t rsa`参数是指定算法
+    - `-C "huhuiyu.top"`参数指定密钥标题名称
+    - `-f huhuiyu.top`参数指定密码文件名称
+    - 命令过程中所有的提示都按回车选择默认值
+    - 如果文件存在会出现`xxxxx already exists`的提示,如果要覆盖就输入`y`之后回车，否则将会取消生成
+- 服务器端配置
+  - 执行`mkdir ~/.ssh`创建ssh目录
+  - 执行`chmod 700 ~/.ssh`配置权限
+  - 执行`vi ~/.ssh/authorized_keys`编辑密钥文件
+    - 将上一步生成的密钥文件中`.pub`公钥内容复制进来然后保存退出
+  - 执行`chmod 600 ~/.ssh/authorized_keys`配置权限
+- 拒绝使用密码登录-一旦开启，!!!丢失ssh密钥将无法登录!!!
+  - 执行`vi /etc/ssh/sshd_config`配置ssh
+  - 输入`/PasswordAuthentication`回车找到对应配置项
+  - 修改为`PasswordAuthentication no`拒绝使用密码登陆
+  - 执行`systemctl restart sshd.service`重启ssh服务生效
+- rsa链接失败时的配置
+  - 需要在`/etc/ssh/ssh_config`文件中添加一行`PubkeyAcceptedKeyTypes +ssh-rsa`配置启用rsa的ssh连接
+  - 也可以在用户目录中添加`~/.ssh/config`文件,内容为`HostKeyAlgorithms +ssh-rsa`配置启用rsa的ssh连接
 - [返回顶端](#ubuntu服务器配置)
 
 ## 防火墙
@@ -76,12 +95,18 @@
 
 ## mysql数据库
 
-- 下载安装源，更新地址去[mysql官方](https://www.mysql.com/)查找）
-- 执行`curl -OL  https://repo.mysql.com//mysql-apt-config_0.8.24-1_all.deb`，下载找到的安装源
-- 更新安装配置`sudo dpkg -i mysql-apt-config_0.8.24-1_all.deb`，界面选`mysql8`后选`ok`即可
-- 更新安装源`apt-get update`
-- 安装mysql`apt-get install mysql-server -y`中途会出现输入root密码和密码加密模式选项
-- 启动mysql命令行`mysql -uroot -p`
+- 卸载
+  - `sudo apt purge mysql-*`
+  - `sudo -rf /etc/mysql/ /var/lib/mysql`
+  - `sudo apt autoremove`
+  - `sudo apt autoclean`
+- 安装
+  - 下载安装源，更新地址去[mysql官方](https://www.mysql.com/)查找
+  - 执行`curl -OL https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb`，下载找到的安装源
+  - 更新安装配置`sudo dpkg -i mysql-apt-config_0.8.29-1_all.deb`，界面选`mysql8`后选`ok`即可
+  - 更新安装源`apt-get update`
+  - 安装mysql`apt-get install mysql-server -y`中途会出现输入root密码和密码加密模式选项
+  - 启动mysql命令行`mysql -uroot -p`
 - [返回顶端](#ubuntu服务器配置)
 
 ## git
@@ -96,15 +121,15 @@
 ## jdk
 
 - 查找jdk信息`apt-cache search openjdk`
-- 安装jdk17`apt-get install openjdk-17-jdk -y`
+- 安装jdk17`apt-get install openjdk-21-jdk -y`
 - 查看java版本`javac -version`
 - [返回顶端](#ubuntu服务器配置)
 
 ## tomcat
 
 - 下载（版本更新去官方网站查看）
-- 执行：`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.91/bin/apache-tomcat-8.5.91.tar.gz`下载tomcat
-- 解压`tar -zxvf apache-tomcat-8.5.91.tar.gz`
+- 执行：`curl -OL https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.99/bin/apache-tomcat-8.5.99.tar.gz`下载tomcat
+- 解压`tar -zxvf apache-tomcat-8.5.99.tar.gz`
 - [返回顶端](#ubuntu服务器配置)
 
 ## unzip
@@ -122,6 +147,13 @@
 
 ## nginx
 
+- 最新版本安装
+  - 安装依赖`apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring -y`
+  - 下载nginx签名相关`curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null`
+  - 配置签名`gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg`
+  - 显示nginx安装列表``echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" | tee /etc/apt/sources.list.d/nginx.list``
+  - 更新源`apt update`
+  - 安装nginx`apt-get install nginx -y`
 - 默认安装
   - 安装nginx`apt-get install nginx -y`
   - 执行`nginx -v`查看安装是否成功(会显示版本号)
@@ -130,13 +162,7 @@
   - 启动服务指令：`systemctl start nginx`
   - 停止服务指令：`systemctl stop nginx`
   - 配置文件默认位置：`/etc/nginx/nginx.conf`和`/etc/nginx/conf.d/*.conf`
-- 最新版本安装
-  - 安装依赖`apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring -y`
-  - 下载nginx签名相关`curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null`
-  - 配置签名`gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg`
-  - 显示nginx安装列表``echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" | tee /etc/apt/sources.list.d/nginx.list``
-  - 更新源`apt update`
-  - 安装nginx`apt-get install nginx -y`
+
 - [返回顶端](#ubuntu服务器配置)
 
 ## nodejs
@@ -152,6 +178,11 @@
   - 执行`n -V`查看n的版本
   - 执行`n lts`更新npm到最新lts版本
   - 重启终端查询版本
+- 全局安装和缓存位置配置（建议多用户配置）
+  - 修改npm全局安装位置：`npm config set prefix "全局安装路径"`
+  - 修改npm全局缓存位置：`npm config set cache "全局缓存路径"`
+  - 查看配置信息：`npm config ls`
+  - 最后添加npm全局安装路径到PATH环境变量
 - [返回顶端](#ubuntu服务器配置)
 
 ## webhook
