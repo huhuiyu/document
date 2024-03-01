@@ -19,7 +19,7 @@
 - 暂停/恢复终端：`ctrl + s`/`ctrl + q`
 - 翻动查看指令执行的屏幕信息：`指令 | less`
   - `b`/`pageup`：向上翻页，`d`/`pagedown`：向下翻页，`q`：退出
-- 编辑开机启动项：vi /etc/rc.d/rc.local需要注意的是指令需要完整路径
+- 编辑开机启动项：`vi /etc/rc.d/rc.local`需要注意的是指令需要完整路径
 - 查看时区列表和修改时区`timedatectl list-timezones | grep Asia`，`timedatectl set-timezone Asia/Shanghai`
 - 安装网络工具`apt install net-tools -y`
 
