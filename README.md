@@ -7,6 +7,7 @@
 - [Markdown](./other/markdown.md)
 - 其它
   - [围棋ai](./other/go.md)
+- [绘图](./graph/README.md)
 
 <!-- js处理背景和css样式 -->
 <script type="module" src="/js/github.js"></script>
