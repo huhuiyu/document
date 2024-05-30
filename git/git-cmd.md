@@ -9,13 +9,27 @@
 ---
 
 - [git指令](#git指令)
+  - [配置信息](#配置信息)
   - [基本指令](#基本指令)
+  - [本地文件夹初始化为仓库并关联远程仓库](#本地文件夹初始化为仓库并关联远程仓库)
   - [分支管理](#分支管理)
   - [冲突和更改撤销](#冲突和更改撤销)
   - [同步多个远程资源库](#同步多个远程资源库)
-  - [配置信息](#配置信息)
   - [标记版本](#标记版本)
   - [清除历史](#清除历史)
+
+## 配置信息
+
+- 查看配置信息：`git config --list`
+- 设置用户名`git config --global user.name "用户名"`
+- 设置邮箱`git config --global user.email "用户邮箱"`
+- windows平台换行问题
+  - 执行`git config --global core.autocrlf true`，让git检出是自动转换lf为crlf，提交时自动转换回lf
+  - 也可以执行`git config --global core.safecrlf true`，让git拒绝提交包含混合换行符的文件
+  - 也可以通过修改`.gitattributes`文件单独配置资源库
+- linux平台`chmod`修改权限需要提交的问题
+  - 执行：`git config --add core.filemode false`或者：`git config --replace-all core.filemode false`指令可以让git只关心文件内容变化
+- [返回顶端](#git指令)
 
 ## 基本指令
 
@@ -25,6 +39,16 @@
 - 推送到远程资源库：`git push`
 - 拉取远程资源库更新文件：`git pull`
 - 查看资源库状态：`git status`  
+- [返回顶端](#git指令)
+
+## 本地文件夹初始化为仓库并关联远程仓库
+
+- 初始化仓库：`git init`
+- 添加跟踪文件：`git add 文件名（支持通配符）`，例如：`git add *`
+- 提交更改：`git commit -m "提交的说明信息"`，例如：`git commit -m "添加了项目说明"`
+- 关联远程资源库：`git remote add origin 远程资源库地址`，例如：`git remote add origin git@code.aliyun.com:DarkKnight/document.git`
+- 推送到远程资源库：`git push -u origin "master"`
+- 修改远程仓库地址：`git remote set-url origin 远程资源库地址`，例如：`git remote set-url origin git@code.aliyun.com:DarkKnight/document.git`
 - [返回顶端](#git指令)
 
 ## 分支管理
@@ -67,19 +91,6 @@
   - 执行`git push github`提交github资源库
   - 主资源库提交不同分支需要执行`git push github origin 分支名`，其它资源库不变
 - 可以执行`git remote rm github`来删除github资源库
-- [返回顶端](#git指令)
-
-## 配置信息
-
-- 查看配置信息：`git config --list`
-- 设置用户名`git config --global user.name "用户名"`
-- 设置邮箱`git config --global user.email "用户邮箱"`
-- windows平台换行问题
-  - 执行`git config --global core.autocrlf true`，让git检出是自动转换lf为crlf，提交时自动转换回lf
-  - 也可以执行`git config --global core.safecrlf true`，让git拒绝提交包含混合换行符的文件
-  - 也可以通过修改`.gitattributes`文件单独配置资源库
-- linux平台`chmod`修改权限需要提交的问题
-  - 执行：`git config --add core.filemode false`或者：`git config --replace-all core.filemode false`指令可以让git只关心文件内容变化
 - [返回顶端](#git指令)
 
 ## 标记版本
