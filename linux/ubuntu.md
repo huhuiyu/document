@@ -154,9 +154,9 @@
 
 - 最新版本安装
   - 安装依赖`sudo apt install curl gnupg2 ca-certificates lsb-release ubuntu-keyring -y`
-  - 下载nginx签名相关`sudo curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null`
+  - 下载nginx签名相关`sudo curl https://nginx.org/keys/nginx_signing.key | gpg --dearmor | sudo tee /usr/share/keyrings/nginx-archive-keyring.gpg >/dev/null`
   - 配置签名`sudo gpg --dry-run --quiet --no-keyring --import --import-options import-show /usr/share/keyrings/nginx-archive-keyring.gpg`
-  - 显示nginx安装列表``echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" | tee /etc/apt/sources.list.d/nginx.list``
+  - 显示nginx安装列表``echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" | sudo tee /etc/apt/sources.list.d/nginx.list``
   - 更新源`sudo apt update`
   - 安装nginx`sudo apt-get install nginx -y`
 - 默认安装
