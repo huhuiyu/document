@@ -2,6 +2,6 @@
 git pull
 Write-Output "===========pull finish==========="
 git push
-Write-Output "===========push gitee finish==========="
-git push github
 Write-Output "===========push github finish==========="
+git push gitee
+Write-Output "===========push gitee finish==========="
