@@ -28,7 +28,7 @@
   <section><img class="lazy-image" data-src="../images/java/idea-install-0012.png" alt=""></section>
   <section><img class="lazy-image" data-src="../images/java/idea-install-0013.png" alt=""></section>
 
-<section>
+</section>
 
 ---配置文件模板---
 
