@@ -6,7 +6,6 @@
 
 - [linux指令](./linux-cmd.md)
 - [ubuntu服务器配置](./ubuntu.md)
-- [putty](./putty.md)
 
 ---
 
