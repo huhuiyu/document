@@ -101,12 +101,19 @@
   - `sudo -rf /etc/mysql/ /var/lib/mysql`
   - `sudo apt autoremove`
   - `sudo apt autoclean`
-- 安装
+- 安装22.04
   - 下载安装源，更新地址去[mysql官方](https://www.mysql.com/)查找
   - 执行`curl -OL https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb`，下载找到的安装源
   - 更新安装配置`sudo dpkg -i mysql-apt-config_0.8.29-1_all.deb`，界面选`mysql8`后选`ok`即可
   - 更新安装源`sudo apt-get update`
   - 安装mysql`sudo apt-get install mysql-server -y`中途会出现输入root密码和密码加密模式选项
+  - 启动mysql命令行`mysql -uroot -p`
+- 安装24.04
+  - 下载安装源，更新地址去[mysql官方](https://www.mysql.com/)查找
+  - 执行`curl -OL https://repo.mysql.com//mysql-apt-config_0.8.33-1_all.deb`，下载找到的安装源
+  - 更新安装配置`sudo dpkg -i mysql-apt-config_0.8.33-1_all.deb`，界面选`mysql8`后选`ok`即可
+  - 更新安装源`sudo apt-get update`
+  - 安装mysql`sudo apt-get install mysql-server -y`中途会出现输入root密码选项
   - 启动mysql命令行`mysql -uroot -p`
 - 通过docker安装
   - 下载mysql镜像：`sudo docker pull mysql`
