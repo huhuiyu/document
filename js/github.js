@@ -3,7 +3,7 @@ import canvasTools from './canvas-esm/canvas-tools.js';
 let head = document.querySelector('head');
 let icon = document.createElement('link');
 icon.setAttribute('rel', 'shortcut icon');
-icon.setAttribute('href', 'https://media.huhuiyu.top/huhuiyu.top/hu-logo.jpg');
+icon.setAttribute('href', 'https://media.klcxy.top/images/hu-logo.jpg');
 head.append(icon);
 let githubcss = document.createElement('link');
 githubcss.setAttribute('rel', 'stylesheet');
