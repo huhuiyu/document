@@ -24,9 +24,6 @@
 - 图中的指令
   - `node -v`查看nodejs版本
   - `npm -v`查看npm版本
-- 附加知识点：windows平台npm全局指令错误提示问题处理
-  - 执行`npm install --global --production npm-windows-upgrade`安装npm更新工具
-  - 管理员身份执行`npm-windows-upgrade`启动npm更新，选择最新版本回车安装即可
 - 修改全局安装和缓存配置
   - 修改npm全局安装位置：`npm config set prefix "全局安装路径"`
   - 修改npm全局缓存位置：`npm config set cache "全局缓存路径"`

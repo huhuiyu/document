@@ -6,6 +6,7 @@
 
 - [vscode教程](./vscode/README.md)
 - [html基础](./html-course/README.md)
+- [vite构建工具](./vite/README.md)
 
 ---
 
