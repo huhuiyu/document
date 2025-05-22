@@ -8,6 +8,7 @@
 - [nodejs安装](./nodejs.md)
 - [nodejs配置安装源](./nodejs-config.md)
 - [nvm安装nodejs](./nvm.md)
+- [vite创建vue3项目](./vue3.md)
 
 ---
 
