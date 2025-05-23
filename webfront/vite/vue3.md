@@ -20,3 +20,6 @@
   - 第一次需要执行`npm install`安装依赖
   - `npm run format`格式化代码
   - `npm run dev`启动项目开发服务
+
+<!-- js处理背景和css样式 -->
+<script type="module" src="/js/github.js"></script>
